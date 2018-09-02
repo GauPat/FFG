@@ -1,0 +1,128 @@
+body {
+  font-size: .875rem; }
+
+/*
+ * Forms
+ */
+form .hidden-field-link {
+  display: none; }
+
+form .form-control {
+  margin-bottom: .3rem; }
+
+form .form-field-link {
+  font-size: 11px;
+  text-align: right; }
+
+form .form-field-link-remove {
+  position: absolute;
+  right: -15px;
+  bottom: 4px;
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px; }
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  form ul > li {
+    margin: 0; }
+
+form ul > li label, form label.checkbox {
+  color: gray;
+  font-weight: normal; }
+  form ul > li label input, form label.checkbox input {
+    margin-right: 5px; }
+
+form .form-check {
+  padding-left: 0; }
+
+form .form-control.dynamic-field {
+  width: auto; }
+
+.form-inline .form-group {
+  margin-bottom: .5rem; }
+  .form-inline .form-group label {
+    margin-right: .5rem; }
+
+.form-check-input {
+  position: static;
+  margin-top: 0;
+  margin-left: 0; }
+
+label {
+  display: block;
+  font-weight: bold; }
+  label span {
+    font-style: italic;
+    font-weight: normal; }
+
+.form-alert > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .form-alert > ul > li {
+    margin: 0; }
+
+.d-flex .form-group {
+  margin-right: 1rem; }
+
+/* /*
+ * Navbar
+ */
+/* .navbar {
+	background-color: #e3f2fd;
+}
+
+.navbar-brand {
+	display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25); } */
+  
+ .navbar, .navbar-inverse {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 80px;
+}
+
+.nav li {
+  display: inline;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 1.7em;
+  font-weight: 300;
+  padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #444444;
+  transition: 0.7s all linear;
+  height: 100%;
+}
+
+/*
+ * Utilities
+ */
+.breadcrumb {
+  line-height: 2.2; }
+  .breadcrumb .badge {
+    font-size: 100%; }
+    
