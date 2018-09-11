@@ -2,6 +2,8 @@
 
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <title>{% block head_title %}{% trans "Welcome" %}{% endblock %} | {% trans "FFG-Immobiles (FFG)" %}</title>
 
     <!-- Bootstrap -->
@@ -52,6 +54,18 @@
             <a class="nav-link" href="#">{% trans "About us" %}</a>
           </li>
 		    </ul>
+		    <form class="form-inline my-2 my-lg-0" action="{% url 'set_language' %}" method="post">
+		      {% csrf_token %}
+		      <select class="form-control mr-sm-2" name="language" onchange="this.form.submit()">
+		        {% get_available_languages as LANGUAGES %}
+		        {% get_language_info_list for LANGUAGES as languages %}
+		        {% for language in languages %}
+		          <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected {% endif %}>
+		            {{ language.name_local }} ({{ language.code }})
+		          </option>
+		        {% endfor %}
+		      </select>
+		    </form>
 		    <form class="form-inline my-2 my-lg-0">
 		      <input class="form-control mr-sm-2" type="search" placeholder="{% trans "Search" %}" aria-label="Search">
 		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">{% trans "Search" %}</button>
@@ -73,8 +87,8 @@
     <script src="{% static "ffg/libs/jquery/jquery-3.3.1.min.js" %}"></script>
     <script src="{% static "ffg/libs/jquery-ui/jquery-ui.min.js" %}"></script>
     <script src="{% static "ffg/libs/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
-    <script src="{% static "ffg/js/main.js" %}"></script>
-
+<!--     <script src="{% static "ffg/js/main.js" %}"></script>
+ -->
     {% block js %}{% endblock %}
 
   </body>

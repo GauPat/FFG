@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-01 14:07+0200\n"
+"POT-Creation-Date: 2018-09-11 22:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,50 +18,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\ffg\templates\ffg\base.html:5
+#: .\ffg\settings.py:115
+msgid "German"
+msgstr ""
+
+#: .\ffg\settings.py:116
+msgid "English"
+msgstr ""
+
+#: .\ffg\templates\ffg\base.html:7
 msgid "Welcome"
 msgstr "Wilkommen"
 
-#: .\ffg\templates\ffg\base.html:5
+#: .\ffg\templates\ffg\base.html:7
 msgid "FFG-Immobiles (FFG)"
 msgstr "FFG-Immobilien (FFG)"
 
-#: .\ffg\templates\ffg\base.html:32
+#: .\ffg\templates\ffg\base.html:34
 msgid "Home"
-msgstr "Start"
+msgstr "Startseite"
 
-#: .\ffg\templates\ffg\base.html:35
+#: .\ffg\templates\ffg\base.html:37
 msgid "News"
 msgstr "Neuigkeiten"
 
-#: .\ffg\templates\ffg\base.html:38
+#: .\ffg\templates\ffg\base.html:40
 msgid "Immobiles"
 msgstr "Immobilien"
 
-#: .\ffg\templates\ffg\base.html:40
-msgid "Overview"
-msgstr "Uebersicht"
-
 #: .\ffg\templates\ffg\base.html:42
+msgid "Overview"
+msgstr "Übersicht"
+
+#: .\ffg\templates\ffg\base.html:44
 msgid "Offers"
 msgstr "Angebote"
 
-#: .\ffg\templates\ffg\base.html:43
+#: .\ffg\templates\ffg\base.html:45
 msgid "Places"
 msgstr "Orte"
 
-#: .\ffg\templates\ffg\base.html:45
+#: .\ffg\templates\ffg\base.html:47
 msgid "Pictures and videos"
-msgstr "Bilder und Videos"
+msgstr "Bilder und videos"
 
-#: .\ffg\templates\ffg\base.html:49
+#: .\ffg\templates\ffg\base.html:51
 msgid "Contact"
 msgstr "Kontakt"
 
-#: .\ffg\templates\ffg\base.html:52
+#: .\ffg\templates\ffg\base.html:54
 msgid "About us"
-msgstr "Ueber uns"
+msgstr "Über uns"
 
-#: .\ffg\templates\ffg\base.html:56 .\ffg\templates\ffg\base.html:57
+#: .\ffg\templates\ffg\base.html:70 .\ffg\templates\ffg\base.html:71
 msgid "Search"
 msgstr "Suche"
+
+#: .\ffg\urls.py:30
+msgid "admin/"
+msgstr "administrator/"

@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+from django.utils.translation import gettext_lazy as _
+from PyInstaller.utils.hooks.django import django_dottedstring_imports
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +46,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -60,6 +63,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.i18n',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -106,6 +110,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
 LANGUAGE_CODE = 'de-en'
+
+LANGUAGES = [
+  ('de', _('German')),
+  ('en', _('English')),
+]
+
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale')
+]
 
 TIME_ZONE = 'Europe/Berlin'
 
