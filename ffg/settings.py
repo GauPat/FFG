@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ffg',
     'home',
+    'imprint',
+    'media',
 ]
 
 MIDDLEWARE = [

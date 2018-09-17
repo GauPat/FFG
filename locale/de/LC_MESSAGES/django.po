@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-16 21:44+0200\n"
+"POT-Creation-Date: 2018-09-17 22:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\ffg\settings.py:115
+#: .\ffg\settings.py:117
 msgid "German"
 msgstr "Deutsch"
 
-#: .\ffg\settings.py:116
+#: .\ffg\settings.py:118
 msgid "English"
 msgstr "Englisch"
 
@@ -31,10 +31,11 @@ msgid "FFG-Immobiles"
 msgstr "FFG-Immobilien"
 
 #: .\ffg\templates\ffg\base.html:26
-msgid "Various Immobiles, as well as storerooms for entrepreneurs"
-msgstr "Verschiedene Immobilien, sowie Lagerräume für Unternehmer"
+msgid "Immobiles management since 2001"
+msgstr "Immobilien Management seit 2001"
 
 #: .\ffg\templates\ffg\base.html:41 .\home\templates\home\home.html:10
+#: .\media\templates\media\media.html:10
 msgid "Home"
 msgstr "Startseite"
 
@@ -62,13 +63,10 @@ msgstr "Orte"
 msgid "Pictures and videos"
 msgstr "Bilder und videos"
 
-#: .\ffg\templates\ffg\base.html:58
-msgid "Contact"
-msgstr "Kontakt"
-
 #: .\ffg\templates\ffg\base.html:61
-msgid "About us"
-msgstr "Über uns"
+#: .\imprint\templates\imprint\imprint.html:10
+msgid "Imprint"
+msgstr "Impressum"
 
 #: .\ffg\templates\ffg\base.html:77 .\ffg\templates\ffg\base.html:78
 msgid "Search"
@@ -78,79 +76,157 @@ msgstr "Suche"
 msgid "admin/"
 msgstr "administrator/"
 
+#: .\ffg\urls.py:28
+msgid "imprint/"
+msgstr "impressum/"
+
+#: .\ffg\urls.py:29
+msgid "media/"
+msgstr "medien/"
+
 #: .\home\templates\home\home.html:5
+#: .\imprint\templates\imprint\imprint.html:5
+#: .\media\templates\media\media.html:5
 msgid "Welcome to FFG-Immobiles"
 msgstr "Willkommen bei FFG-Immobilien"
 
-#: .\home\templates\home\home.html:17
+#: .\home\templates\home\home.html:18 .\media\templates\media\media.html:18
 msgid "Rental offers"
 msgstr "Mietangebote"
 
-#: .\home\templates\home\home.html:23
+#: .\home\templates\home\home.html:24 .\media\templates\media\media.html:24
 msgid "Storerooms"
 msgstr "Lagerräume"
 
-#: .\home\templates\home\home.html:25
+#: .\home\templates\home\home.html:26 .\media\templates\media\media.html:26
 msgid "Storerooms picture"
 msgstr "Lagerräume Bild"
 
-#: .\home\templates\home\home.html:27
+#: .\home\templates\home\home.html:28 .\media\templates\media\media.html:28
 msgid "Ramp"
 msgstr "Rampe"
 
-#: .\home\templates\home\home.html:29
+#: .\home\templates\home\home.html:30 .\media\templates\media\media.html:30
 msgid "We offer multiple storerooms!"
 msgstr "Wir bieten mehrere Lagerräume an!"
 
-#: .\home\templates\home\home.html:32 .\home\templates\home\home.html:47
-#: .\home\templates\home\home.html:63 .\home\templates\home\home.html:78
+#: .\home\templates\home\home.html:33 .\home\templates\home\home.html:48
+#: .\home\templates\home\home.html:64 .\home\templates\home\home.html:79
+#: .\media\templates\media\media.html:33 .\media\templates\media\media.html:48
+#: .\media\templates\media\media.html:64 .\media\templates\media\media.html:79
 msgid "Currently not available"
 msgstr "Aktuell nicht verfügbar"
 
-#: .\home\templates\home\home.html:38
+#: .\home\templates\home\home.html:39 .\media\templates\media\media.html:39
 msgid "Office premises"
 msgstr "Büroräume"
 
-#: .\home\templates\home\home.html:40
+#: .\home\templates\home\home.html:41 .\media\templates\media\media.html:41
 msgid "Office premises picture"
 msgstr "Büroräume Bild"
 
-#: .\home\templates\home\home.html:42
+#: .\home\templates\home\home.html:43 .\media\templates\media\media.html:43
 msgid "Office"
 msgstr "Büro"
 
-#: .\home\templates\home\home.html:44
+#: .\home\templates\home\home.html:45 .\media\templates\media\media.html:45
 msgid "We offer multiple, variable offices surrounded by different trees and plants."
 msgstr "Wir bieten mehrere unterschiedliche Büros umgeben von verschiedenen Bäumen und Pflanzen an."
 
-#: .\home\templates\home\home.html:54
-msgid "Training classrooms"
-msgstr "Schulungsräume"
+#: .\home\templates\home\home.html:55
+msgid "Meeting rooms"
+msgstr "Meetingräume"
 
-#: .\home\templates\home\home.html:56
-msgid "Training classroom picture"
-msgstr "Schulungsraum Bild"
+#: .\home\templates\home\home.html:57 .\media\templates\media\media.html:57
+msgid "Meeting room picture"
+msgstr "Meetingraum Bild"
 
-#: .\home\templates\home\home.html:58
-msgid "Big rooms for trainings"
-msgstr "Große Räume für Schulungen"
+#: .\home\templates\home\home.html:59
+msgid "Big rooms for meetings"
+msgstr "Große Räume für Meetings"
 
-#: .\home\templates\home\home.html:60
-msgid "We offer training classrooms with lots of space for everything coming up in your mind."
-msgstr "Wir bieten Schulungsräume mit viel Platz für alles was Ihnen in den Sinn kommt."
+#: .\home\templates\home\home.html:61
+msgid "We offer meeting rooms with lots of space for everything coming up in your mind."
+msgstr "Wir bieten Meetingräume mit viel Platz für alles was Ihnen in den Sinn kommt."
 
-#: .\home\templates\home\home.html:69
+#: .\home\templates\home\home.html:70 .\media\templates\media\media.html:70
 msgid "Parking area"
 msgstr "Parkplatz"
 
-#: .\home\templates\home\home.html:71
+#: .\home\templates\home\home.html:72 .\media\templates\media\media.html:72
 msgid "Parking area picture"
 msgstr "Parkplatz Bild"
 
-#: .\home\templates\home\home.html:73
+#: .\home\templates\home\home.html:74 .\media\templates\media\media.html:74
 msgid "Parking"
 msgstr "Parken"
 
-#: .\home\templates\home\home.html:75
+#: .\home\templates\home\home.html:76 .\media\templates\media\media.html:76
 msgid "We offer a great parking area for cars and other vehicles."
 msgstr "Wir bieten einen großen Parkplatz für Autos und andere Fahrzeuge an."
+
+#: .\imprint\templates\imprint\imprint.html:19
+msgid "FFG - society of civil law"
+msgstr "FFG - Gesellschaft bürgerlichen Rechts"
+
+#: .\imprint\templates\imprint\imprint.html:21
+msgid "Street:"
+msgstr "Straße:"
+
+#: .\imprint\templates\imprint\imprint.html:22
+msgid "Von-Hünefeld-Str. 2, 50829 Cologne"
+msgstr "Von-Hünefeld-Str. 2, 50829 Köln"
+
+#: .\imprint\templates\imprint\imprint.html:25
+msgid "Tax id number:"
+msgstr "USt-IdNr.:"
+
+#: .\imprint\templates\imprint\imprint.html:30
+msgid "Executive Partner:"
+msgstr "Geschäftsführender Gesellschafter:"
+
+#: .\imprint\templates\imprint\imprint.html:34
+msgid "Shareholder:"
+msgstr "Gesellschafter: "
+
+#: .\imprint\templates\imprint\imprint.html:37
+#: .\imprint\templates\imprint\imprint.html:52
+#: .\imprint\templates\imprint\imprint.html:72
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: .\imprint\templates\imprint\imprint.html:41
+#: .\imprint\templates\imprint\imprint.html:56
+#: .\imprint\templates\imprint\imprint.html:76
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: .\imprint\templates\imprint\imprint.html:45
+#: .\imprint\templates\imprint\imprint.html:60
+#: .\imprint\templates\imprint\imprint.html:80
+msgid "Fax:"
+msgstr "Fax:"
+
+#: .\imprint\templates\imprint\imprint.html:50
+msgid "Contact possibilities"
+msgstr "Kontaktmöglichkeiten"
+
+#: .\imprint\templates\imprint\imprint.html:65
+msgid "Concept, design & technical implementation"
+msgstr "Konzeption, Design & technische Umsetzung"
+
+#: .\imprint\templates\imprint\imprint.html:69
+msgid "Photo credit"
+msgstr "Bildnachweis"
+
+#: .\media\templates\media\media.html:55
+msgid "Training classrooms"
+msgstr "Schulungsräume"
+
+#: .\media\templates\media\media.html:59
+msgid "Big rooms for trainings"
+msgstr "Große Räume für Schulungen"
+
+#: .\media\templates\media\media.html:61
+msgid "We offer training classrooms with lots of space for everything coming up in your mind."
+msgstr "Wir bieten Schulungsräume mit viel Platz für alles was Ihnen in den Sinn kommt."
