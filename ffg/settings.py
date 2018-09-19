@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'ffg',
     'home',
     'imprint',
+    'contact',
     'media',
 ]
 

@@ -26,5 +26,6 @@ urlpatterns += i18n_patterns(
     path(_('admin/'), admin.site.urls),
     path('', include('home.urls')),
     path(_('imprint/'), include('imprint.urls')),
+    path(_('contact/'), include('contact.urls')),
     path(_('media/'), include('media.urls')),
 )

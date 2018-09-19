@@ -1,8 +1,6 @@
-from django.shortcuts import render
-from django.views.generic.base import TemplateView
-from django.utils import translation
+"""Views for the 'media' app"""
 
-import os
+from django.views.generic.base import TemplateView
 
 
 class MediaTemplateView(TemplateView):

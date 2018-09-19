@@ -5,6 +5,18 @@ body {
 /*
  * Forms
  */
+form textarea {
+	width: 80%;
+}
+
+form input {
+  width: 60%;
+}
+
+form button {
+  width: 20%;
+}
+
 form .hidden-field-link {
   display: none; }
 
