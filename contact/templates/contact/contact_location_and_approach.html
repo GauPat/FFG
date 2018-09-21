@@ -24,7 +24,7 @@
 		        <p>
 		          {% trans "The dynamic business park Butzweilerhof is the largest economic area in the left side of Cologne with 1.5 million square meters and now houses more than 400 companies, including well-known names such as IKEA, Selgros, NetCologne, UPS, Sparkasse KölnBonn, Rimowa or from the entertainment industry MMC Studios in Coloneum and the Alive AG (" %}
 		          <a href="https://alive-ag.de/">www.alive-ag.de</a>
-		          {% trans "). The" %} "Motorworld Cologne Rhineland" {% trans "is creating a magnet for automotive fans from all over the world." %}
+		          {% trans "). The" %} "Motorworld Köln Rheinland" {% trans "is creating a magnet for automotive fans from all over the world." %}
 		        </p>
 	          <hr>
 	          <p>{% trans "The urban planning concept for the Butzweilerhof also provides an elegant connection between working and living through the creation of a completely new residential district." %}</p>
@@ -61,14 +61,14 @@
 		  </div>
 		</div>
 		
-		<!-- Google map -->
+		<!-- Google map   map-container-5-->
 	  <div class="col-md-6 col-lg-5 col-xl-4 mb-4">
 	    <div class="card card-cascade narrower">
 	      <div class="view view-cascade gradient-card-header blue-gradient">
 	        <h5 class="mb-0">Google maps</h5>
 	      </div>
 	      <div class="card-body card-body-cascade text-center">
-	        <div id="map-container-5" class="z-depth-1" style="height: 300px"></div>
+	        <div id="google-map" class="z-depth-1" style="height: 300px"></div>
 	      </div>
 	    </div>
 	  </div>
@@ -80,5 +80,7 @@
     $(document).ready(function() {
     	initContatLocationAndApproach();
     })
+    
   </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaV3QuScDUoHR4DZc17k_RyVqrN73fcXY" async defer></script>
 {% endblock %}

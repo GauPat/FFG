@@ -65,8 +65,7 @@
             <a class="nav-link" href="{% url 'imprint' %}">{% trans "Imprint" %}</a>
           </li>
 		    </ul>
-		    <div class="d-flex">
-		    <form class="ml-auto form-inline my-2 my-lg-0 mr-2" action="{% url 'set_language' %}" method="post">
+		    <form class="form-inline my-2 my-lg-0 mr-2" action="{% url 'set_language' %}" method="post">
 		      {% csrf_token %}
 		      <select class="form-control mr-sm-2" name="language" onchange="this.form.submit()">
 		        {% get_available_languages as LANGUAGES %}
@@ -78,7 +77,6 @@
 		        {% endfor %}
 		      </select>
 		    </form>
-		    </div>
 		    <form class="form-inline my-2 my-lg-0">
 		      <input class="form-control mr-sm-2" type="search" placeholder="{% trans "Search" %}" aria-label="Search">
 		      <button class="btn btn-outline-success mb-1" type="submit">{% trans "Search" %}</button>
@@ -140,7 +138,7 @@
     
     <!-- Google Maps -->
 <!--    <script src="https://maps.google.com/maps/api/js?key=AIzaSyAaV3QuScDUoHR4DZc17k_RyVqrN73fcXY"></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaV3QuScDUoHR4DZc17k_RyVqrN73fcXY&callback=initMap" async defer></script>
+    
     
     <!-- Contact -->
     <script src="{% static "contact/js/contact.js" %}"></script>

@@ -277,8 +277,8 @@ msgid "We offer meeting rooms with lots of space for everything coming up in you
 msgstr "Wir bieten Meetingräume mit viel Platz für alles was Ihnen in den Sinn kommt."
 
 #: .\home\templates\home\home.html:64
-msgid "Parking area"
-msgstr "Parkplatz"
+msgid "Parking areas"
+msgstr "Parkplätze"
 
 #: .\home\templates\home\home.html:66
 msgid "Parking area picture"
