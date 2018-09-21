@@ -13,8 +13,8 @@ form input {
   width: 60%;
 }
 
-form button {
-  width: 20%;
+form .btn-primary {
+  width: 25%;
 }
 
 form .hidden-field-link {

@@ -6,76 +6,79 @@
 {% endblock %}
 
 {% block main %}
-  <div class="col-12">
-    <div class="row justify-content-center">
-		  <ul class="list-group col-sm-12 col-md-10 col-lg-8 col-xl-6">
-			  <li class="list-group-item">
-			    <p class="font-weight-bold mt-2">{% trans "FFG - society of civil law" %}</p>
-          <div class="d-flex mb-2">
-            <span>{% trans "Street:" %}</span>
-            <span class="ml-auto">{% trans "Von-Hünefeld-Str. 2, 50829 Cologne" %}</span>
-          </div>
-          <div class="d-flex mb-2">
-            <span>{% trans "Tax id number:" %}</span>
-            <span class="ml-auto">DE218136229</span>
-          </div>
-		    </li>
-		    <li class="list-group-item">
-			    <p class="font-weight-bold mt-2">{% trans "Executive Partner:" %}</p>
-		      <p >Josef Gauls</p>
-			  </li>
-			  <li class="list-group-item">
-			    <p class="font-weight-bold mt-2">{% trans "Shareholder:" %}</p>
-          <p>Andreas Paulsen</p>
-          <div class="d-flex">
-            <span>{% trans "E-mail:" %}</span>
-            <a href="#" class="ml-auto">Andreas.Paulsen@ffg-gbr.de</a>
-          </div>
-          <div class="d-flex">
-            <span>{% trans "Telephone:" %}</span>
-            <span class="ml-auto">+49 221 5342 2016</span>
-          </div>
-          <div class="d-flex mb-2">
-            <span>{% trans "Fax:" %}</span>
-            <span class="ml-auto">+49 221 5342 3016</span>
-          </div>
-        </li>
-			  <li class="list-group-item">
-	        <p class="font-weight-bold mt-2">{% trans "Contact possibilities" %}</p>
-	        <div class="d-flex">
-	          <span>{% trans "E-mail:" %}</span>
-	          <a href="#" class="ml-auto">info@ffg-gbr.de</a>
-	        </div>
-	        <div class="d-flex">
-	          <span>{% trans "Telephone:" %}</span>
-	          <span class="ml-auto">+49 221 5342 - 5900</span>
-	        </div>
-          <div class="d-flex mb-2">
-            <span>{% trans "Fax:" %}</span>
-            <span class="ml-auto">+49 221 6502609</span>
-          </div>
-	      </li>
-			  <li class="list-group-item">
-	        <p class="font-weight-bold mt-2">{% trans "Concept, design & technical implementation" %}</p>
-	        <p class="mb-2">Patrick Gauls</p>
-	      </li>
-			  <li class="list-group-item">
-	        <p class="font-weight-bold mt-2">{% trans "Photo credit" %}</p>
-	        <p>Brian Grundy</p>
-          <div class="d-flex">
-            <span>{% trans "E-mail:" %}</span>
-            <a href="#" class="ml-auto">Brian.Grundy@ffg-gbr.de</a>
-          </div>
-          <div class="d-flex">
-            <span>{% trans "Telephone:" %}</span>
-            <span class="ml-auto">+49 221 5342 2013</span>
-          </div>
-          <div class="d-flex mb-2">
-            <span>{% trans "Fax:" %}</span>
-            <span class="ml-auto">+49 221 5342 3013</span>
-          </div>
-	      </li>
-			</ul>
+  <div class="row d-flex justify-content-center">
+  
+	  <div class="col-md-6 col-lg-5 col-xl-4 mb-4" id="accordion">
+		  <div class="card">
+		    <div class="card-header" id="location">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          {%trans "Location" %}
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseOne" class="collapse show" aria-labelledby="location" data-parent="#accordion">
+		      <div class="card-body">
+		        <p>{% trans "The FFG-GbR area is located in the media business park, Von-Hünefeld-Str. 2, in the industrial area Butzweilerhof, directly on the corner of the Hugo-Eckener-Straße." %}</p>
+		        <hr>
+		        <p>
+		          {% trans "The dynamic business park Butzweilerhof is the largest economic area in the left side of Cologne with 1.5 million square meters and now houses more than 400 companies, including well-known names such as IKEA, Selgros, NetCologne, UPS, Sparkasse KölnBonn, Rimowa or from the entertainment industry MMC Studios in Coloneum and the Alive AG (" %}
+		          <a href="https://alive-ag.de/">www.alive-ag.de</a>
+		          {% trans "). The" %} "Motorworld Cologne Rhineland" {% trans "is creating a magnet for automotive fans from all over the world." %}
+		        </p>
+	          <hr>
+	          <p>{% trans "The urban planning concept for the Butzweilerhof also provides an elegant connection between working and living through the creation of a completely new residential district." %}</p>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <div class="card">
+		    <div class="card-header" id="approach">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          {%trans "Approach" %}
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="approach" data-parent="#accordion">
+		      <div class="card-body">
+		        <p>{% trans "The A1 and A57 motorways can be reached in a few minutes via the Cologne-North intersection." %}</p>
+		        <p>{% trans "The distance to Cologne city center (cathedral) is 9 km." %}</p>
+		        <hr>
+		        <p>{% trans "public transport:" %}</p>
+	          <ul>
+	            <li>{% trans "Tram line 3, stop" %} "Ollenhauerring"</li>
+	            <li>{% trans "Tram line 3, stop" %} "Alter Flughafen Butzweilerhof"</li>
+	            <li>{% trans "Bus 139 or 127, stop" %} "Von-Hünefeld-Str."</li>
+	            <li>{% trans "S-Bahn line S 11, stop" %} "Longerich" {% trans "continue with bus line 139 direction" %} "Bickendorf" {% trans "or bus line 127 direction" %} "Ebertplatz" / "Lentpark"</li>
+	          </ul>
+	          <p>
+	            {% trans "Timetables can be obtained from the Cologne Transport Authority:" %} 
+	            <a href="https://www.kvb.koeln/">www.kvb-koeln.de</a>
+	          </p>
+		      </div>
+		    </div>
+		  </div>
 		</div>
+		
+		<!-- Google map -->
+	  <div class="col-md-6 col-lg-5 col-xl-4 mb-4">
+	    <div class="card card-cascade narrower">
+	      <div class="view view-cascade gradient-card-header blue-gradient">
+	        <h5 class="mb-0">Google maps</h5>
+	      </div>
+	      <div class="card-body card-body-cascade text-center">
+	        <div id="map-container-5" class="z-depth-1" style="height: 300px"></div>
+	      </div>
+	    </div>
+	  </div>
   </div>
+{% endblock %}
+
+{% block js %}
+  <script>
+    $(document).ready(function() {
+    	initContatLocationAndApproach();
+    })
+  </script>
 {% endblock %}

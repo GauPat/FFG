@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
+encoding//contact/templates/contact/contact_location_and_approach.html=UTF-8
 encoding//imprint/templates/imprint/imprint.html=UTF-8
 encoding//locale/de/LC_MESSAGES/django.po=UTF-8

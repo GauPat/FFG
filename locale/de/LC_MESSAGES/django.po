@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-17 22:36+0200\n"
+"POT-Creation-Date: 2018-09-21 01:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,128 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\ffg\settings.py:117
+#: .\contact\forms.py:12
+msgid "Name"
+msgstr "Name"
+
+#: .\contact\forms.py:17
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: .\contact\forms.py:21
+msgid "E-mail"
+msgstr "E-mail:"
+
+#: .\contact\forms.py:25
+msgid "Your email"
+msgstr "Ihre E-mail Adresse"
+
+#: .\contact\forms.py:29
+msgid "Subject"
+msgstr "Betreff"
+
+#: .\contact\forms.py:33
+msgid "The subject"
+msgstr "Der Betreff"
+
+#: .\contact\forms.py:37
+msgid "Message"
+msgstr "Nachricht"
+
+#: .\contact\forms.py:41
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+#: .\contact\templates\contact\contact_form.html:5
+#: .\contact\templates\contact\contact_location_and_approach.html:5
+#: .\home\templates\home\home.html:5
+#: .\imprint\templates\imprint\imprint.html:5
+#: .\media\templates\media\media.html:5
+msgid "Welcome to FFG-Immobiles"
+msgstr "Willkommen bei FFG-Immobilien"
+
+#: .\contact\templates\contact\contact_form.html:13
+msgid "Send"
+msgstr "Senden"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:16
+msgid "Location"
+msgstr "Standort"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:22
+msgid "The FFG-GbR area is located in the media business park, Von-Hünefeld-Str. 2, in the industrial area Butzweilerhof, directly on the corner of the Hugo-Eckener-Straße."
+msgstr "Das FFG-GbR Areal befindet sich im Mediengewerbepark, Von-Hünefeld-Str. 2, im Gewerbegebiet Butzweilerhof, direkt an der Ecke Hugo-Eckener-Straße."
+
+#: .\contact\templates\contact\contact_location_and_approach.html:25
+msgid "The dynamic business park Butzweilerhof is the largest economic area in the left side of Cologne with 1.5 million square meters and now houses more than 400 companies, including well-known names such as IKEA, Selgros, NetCologne, UPS, Sparkasse KölnBonn, Rimowa or from the entertainment industry MMC Studios in Coloneum and the Alive AG ("
+msgstr "Das dynamische Gewerbegebiet Butzweilerhof ist das größte Wirtschaftsgebiet im linksrheinischen Köln mit 1,5 Millionen Quadratmetern und beherbergt inzwischen über 400 Unternehmen, darunter bekannte Namen wie IKEA, Selgros, NetCologne, UPS, die Sparkasse KölnBonn, Rimowa oder aus der Entertainmentbranche die MMC Studios im Coloneum und die Alive AG ("
+
+#: .\contact\templates\contact\contact_location_and_approach.html:27
+msgid "). The"
+msgstr "). Mit dem"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:27
+msgid "is creating a magnet for automotive fans from all over the world."
+msgstr "entsteht ein Magnet für Automobil-Fans aus der ganzen Welt."
+
+#: .\contact\templates\contact\contact_location_and_approach.html:30
+msgid "The urban planning concept for the Butzweilerhof also provides an elegant connection between working and living through the creation of a completely new residential district."
+msgstr "Das städtebauliche Konzept für den Butzweilerhof sieht auch eine elegante Verbindung zwischen Arbeiten und Wohnen durch die Entstehung eines komplett neuen Wohnviertels vor."
+
+#: .\contact\templates\contact\contact_location_and_approach.html:39
+msgid "Approach"
+msgstr "Anfahrt"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:45
+msgid "The A1 and A57 motorways can be reached in a few minutes via the Cologne-North intersection."
+msgstr "Die Autobahnen A1 und A57 sind über das Kreuz Köln-Nord in wenigen Minuten zu erreichen."
+
+#: .\contact\templates\contact\contact_location_and_approach.html:46
+msgid "The distance to Cologne city center (cathedral) is 9 km."
+msgstr "Die Entfernung zur Kölner Innenstadt (Dom) beträgt 9 km."
+
+#: .\contact\templates\contact\contact_location_and_approach.html:48
+msgid "public transport:"
+msgstr "verschiedene Öpnv-Verbindungen:"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:50
+#: .\contact\templates\contact\contact_location_and_approach.html:51
+msgid "Tram line 3, stop"
+msgstr "Straßenbahnlinie 3, Haltestelle"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:52
+msgid "Bus 139 or 127, stop"
+msgstr "Buslinien 139 oder 127, Haltestelle"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:53
+msgid "S-Bahn line S 11, stop"
+msgstr "S-Bahn Linie S 11, Haltestelle"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:53
+msgid "continue with bus line 139 direction"
+msgstr "weiter mit Buslinie 139 Richtung"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:53
+msgid "or bus line 127 direction"
+msgstr "bzw. Buslinie 127 Richtung"
+
+#: .\contact\templates\contact\contact_location_and_approach.html:56
+msgid "Timetables can be obtained from the Cologne Transport Authority:"
+msgstr "Fahrpläne erhalten Sie bei den Kölner Verkehrsbetrieben:"
+
+#: .\contact\urls.py:10
+msgid "contact-form/"
+msgstr "kontaktformular/"
+
+#: .\contact\urls.py:12
+msgid "location-and-approach/"
+msgstr "standort-und-anfahrt/"
+
+#: .\ffg\settings.py:118
 msgid "German"
 msgstr "Deutsch"
 
-#: .\ffg\settings.py:118
+#: .\ffg\settings.py:119
 msgid "English"
 msgstr "Englisch"
 
@@ -34,8 +151,7 @@ msgstr "FFG-Immobilien"
 msgid "Immobiles management since 2001"
 msgstr "Immobilien Management seit 2001"
 
-#: .\ffg\templates\ffg\base.html:41 .\home\templates\home\home.html:10
-#: .\media\templates\media\media.html:10
+#: .\ffg\templates\ffg\base.html:41
 msgid "Home"
 msgstr "Startseite"
 
@@ -63,14 +179,29 @@ msgstr "Orte"
 msgid "Pictures and videos"
 msgstr "Bilder und videos"
 
-#: .\ffg\templates\ffg\base.html:61
-#: .\imprint\templates\imprint\imprint.html:10
+#: .\ffg\templates\ffg\base.html:58 .\ffg\templates\ffg\base.html:116
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\ffg\templates\ffg\base.html:60
+msgid "Contact form"
+msgstr "Kontaktformular"
+
+#: .\ffg\templates\ffg\base.html:61 .\ffg\templates\ffg\base.html:119
+msgid "Location and approach"
+msgstr "Standort und Anfahrt"
+
+#: .\ffg\templates\ffg\base.html:65 .\ffg\templates\ffg\base.html:113
 msgid "Imprint"
 msgstr "Impressum"
 
-#: .\ffg\templates\ffg\base.html:77 .\ffg\templates\ffg\base.html:78
+#: .\ffg\templates\ffg\base.html:83 .\ffg\templates\ffg\base.html:84
 msgid "Search"
 msgstr "Suche"
+
+#: .\ffg\templates\ffg\base.html:128
+msgid "Copyright © since 2001 by FFG-GbR - All Rights Reserved."
+msgstr "Copyright © seit 2001 von FFG-GbR - Alle Rechte vorbehalten."
 
 #: .\ffg\urls.py:26
 msgid "admin/"
@@ -81,152 +212,136 @@ msgid "imprint/"
 msgstr "impressum/"
 
 #: .\ffg\urls.py:29
+msgid "contact/"
+msgstr "kontakt/"
+
+#: .\ffg\urls.py:30
 msgid "media/"
 msgstr "medien/"
 
-#: .\home\templates\home\home.html:5
-#: .\imprint\templates\imprint\imprint.html:5
-#: .\media\templates\media\media.html:5
-msgid "Welcome to FFG-Immobiles"
-msgstr "Willkommen bei FFG-Immobilien"
-
-#: .\home\templates\home\home.html:18 .\media\templates\media\media.html:18
+#: .\home\templates\home\home.html:12
 msgid "Rental offers"
 msgstr "Mietangebote"
 
-#: .\home\templates\home\home.html:24 .\media\templates\media\media.html:24
+#: .\home\templates\home\home.html:18
 msgid "Storerooms"
 msgstr "Lagerräume"
 
-#: .\home\templates\home\home.html:26 .\media\templates\media\media.html:26
+#: .\home\templates\home\home.html:20
 msgid "Storerooms picture"
 msgstr "Lagerräume Bild"
 
-#: .\home\templates\home\home.html:28 .\media\templates\media\media.html:28
+#: .\home\templates\home\home.html:22
 msgid "Ramp"
 msgstr "Rampe"
 
-#: .\home\templates\home\home.html:30 .\media\templates\media\media.html:30
+#: .\home\templates\home\home.html:24
 msgid "We offer multiple storerooms!"
 msgstr "Wir bieten mehrere Lagerräume an!"
 
-#: .\home\templates\home\home.html:33 .\home\templates\home\home.html:48
-#: .\home\templates\home\home.html:64 .\home\templates\home\home.html:79
-#: .\media\templates\media\media.html:33 .\media\templates\media\media.html:48
-#: .\media\templates\media\media.html:64 .\media\templates\media\media.html:79
+#: .\home\templates\home\home.html:27 .\home\templates\home\home.html:42
+#: .\home\templates\home\home.html:58 .\home\templates\home\home.html:73
 msgid "Currently not available"
 msgstr "Aktuell nicht verfügbar"
 
-#: .\home\templates\home\home.html:39 .\media\templates\media\media.html:39
+#: .\home\templates\home\home.html:33
 msgid "Office premises"
 msgstr "Büroräume"
 
-#: .\home\templates\home\home.html:41 .\media\templates\media\media.html:41
+#: .\home\templates\home\home.html:35
 msgid "Office premises picture"
 msgstr "Büroräume Bild"
 
-#: .\home\templates\home\home.html:43 .\media\templates\media\media.html:43
+#: .\home\templates\home\home.html:37
 msgid "Office"
 msgstr "Büro"
 
-#: .\home\templates\home\home.html:45 .\media\templates\media\media.html:45
+#: .\home\templates\home\home.html:39
 msgid "We offer multiple, variable offices surrounded by different trees and plants."
 msgstr "Wir bieten mehrere unterschiedliche Büros umgeben von verschiedenen Bäumen und Pflanzen an."
 
-#: .\home\templates\home\home.html:55
+#: .\home\templates\home\home.html:49
 msgid "Meeting rooms"
 msgstr "Meetingräume"
 
-#: .\home\templates\home\home.html:57 .\media\templates\media\media.html:57
+#: .\home\templates\home\home.html:51
 msgid "Meeting room picture"
 msgstr "Meetingraum Bild"
 
-#: .\home\templates\home\home.html:59
+#: .\home\templates\home\home.html:53
 msgid "Big rooms for meetings"
 msgstr "Große Räume für Meetings"
 
-#: .\home\templates\home\home.html:61
+#: .\home\templates\home\home.html:55
 msgid "We offer meeting rooms with lots of space for everything coming up in your mind."
 msgstr "Wir bieten Meetingräume mit viel Platz für alles was Ihnen in den Sinn kommt."
 
-#: .\home\templates\home\home.html:70 .\media\templates\media\media.html:70
+#: .\home\templates\home\home.html:64
 msgid "Parking area"
 msgstr "Parkplatz"
 
-#: .\home\templates\home\home.html:72 .\media\templates\media\media.html:72
+#: .\home\templates\home\home.html:66
 msgid "Parking area picture"
 msgstr "Parkplatz Bild"
 
-#: .\home\templates\home\home.html:74 .\media\templates\media\media.html:74
+#: .\home\templates\home\home.html:68
 msgid "Parking"
 msgstr "Parken"
 
-#: .\home\templates\home\home.html:76 .\media\templates\media\media.html:76
+#: .\home\templates\home\home.html:70
 msgid "We offer a great parking area for cars and other vehicles."
 msgstr "Wir bieten einen großen Parkplatz für Autos und andere Fahrzeuge an."
 
-#: .\imprint\templates\imprint\imprint.html:19
+#: .\imprint\templates\imprint\imprint.html:13
 msgid "FFG - society of civil law"
 msgstr "FFG - Gesellschaft bürgerlichen Rechts"
 
-#: .\imprint\templates\imprint\imprint.html:21
+#: .\imprint\templates\imprint\imprint.html:15
 msgid "Street:"
 msgstr "Straße:"
 
-#: .\imprint\templates\imprint\imprint.html:22
+#: .\imprint\templates\imprint\imprint.html:16
 msgid "Von-Hünefeld-Str. 2, 50829 Cologne"
 msgstr "Von-Hünefeld-Str. 2, 50829 Köln"
 
-#: .\imprint\templates\imprint\imprint.html:25
+#: .\imprint\templates\imprint\imprint.html:19
 msgid "Tax id number:"
 msgstr "USt-IdNr.:"
 
-#: .\imprint\templates\imprint\imprint.html:30
+#: .\imprint\templates\imprint\imprint.html:24
 msgid "Executive Partner:"
 msgstr "Geschäftsführender Gesellschafter:"
 
-#: .\imprint\templates\imprint\imprint.html:34
+#: .\imprint\templates\imprint\imprint.html:28
 msgid "Shareholder:"
 msgstr "Gesellschafter: "
 
-#: .\imprint\templates\imprint\imprint.html:37
-#: .\imprint\templates\imprint\imprint.html:52
-#: .\imprint\templates\imprint\imprint.html:72
+#: .\imprint\templates\imprint\imprint.html:31
+#: .\imprint\templates\imprint\imprint.html:46
+#: .\imprint\templates\imprint\imprint.html:66
 msgid "E-mail:"
 msgstr "E-mail:"
 
-#: .\imprint\templates\imprint\imprint.html:41
-#: .\imprint\templates\imprint\imprint.html:56
-#: .\imprint\templates\imprint\imprint.html:76
+#: .\imprint\templates\imprint\imprint.html:35
+#: .\imprint\templates\imprint\imprint.html:50
+#: .\imprint\templates\imprint\imprint.html:70
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: .\imprint\templates\imprint\imprint.html:45
-#: .\imprint\templates\imprint\imprint.html:60
-#: .\imprint\templates\imprint\imprint.html:80
+#: .\imprint\templates\imprint\imprint.html:39
+#: .\imprint\templates\imprint\imprint.html:54
+#: .\imprint\templates\imprint\imprint.html:74
 msgid "Fax:"
 msgstr "Fax:"
 
-#: .\imprint\templates\imprint\imprint.html:50
+#: .\imprint\templates\imprint\imprint.html:44
 msgid "Contact possibilities"
 msgstr "Kontaktmöglichkeiten"
 
-#: .\imprint\templates\imprint\imprint.html:65
+#: .\imprint\templates\imprint\imprint.html:59
 msgid "Concept, design & technical implementation"
 msgstr "Konzeption, Design & technische Umsetzung"
 
-#: .\imprint\templates\imprint\imprint.html:69
+#: .\imprint\templates\imprint\imprint.html:63
 msgid "Photo credit"
 msgstr "Bildnachweis"
-
-#: .\media\templates\media\media.html:55
-msgid "Training classrooms"
-msgstr "Schulungsräume"
-
-#: .\media\templates\media\media.html:59
-msgid "Big rooms for trainings"
-msgstr "Große Räume für Schulungen"
-
-#: .\media\templates\media\media.html:61
-msgid "We offer training classrooms with lots of space for everything coming up in your mind."
-msgstr "Wir bieten Schulungsräume mit viel Platz für alles was Ihnen in den Sinn kommt."
