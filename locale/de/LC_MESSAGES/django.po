@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 01:06+0200\n"
+"POT-Creation-Date: 2018-09-29 22:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,7 +179,7 @@ msgstr "Orte"
 msgid "Pictures and videos"
 msgstr "Bilder und videos"
 
-#: .\ffg\templates\ffg\base.html:58 .\ffg\templates\ffg\base.html:116
+#: .\ffg\templates\ffg\base.html:58 .\ffg\templates\ffg\base.html:114
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -187,19 +187,19 @@ msgstr "Kontakt"
 msgid "Contact form"
 msgstr "Kontaktformular"
 
-#: .\ffg\templates\ffg\base.html:61 .\ffg\templates\ffg\base.html:119
+#: .\ffg\templates\ffg\base.html:61 .\ffg\templates\ffg\base.html:117
 msgid "Location and approach"
 msgstr "Standort und Anfahrt"
 
-#: .\ffg\templates\ffg\base.html:65 .\ffg\templates\ffg\base.html:113
+#: .\ffg\templates\ffg\base.html:65 .\ffg\templates\ffg\base.html:111
 msgid "Imprint"
 msgstr "Impressum"
 
-#: .\ffg\templates\ffg\base.html:83 .\ffg\templates\ffg\base.html:84
+#: .\ffg\templates\ffg\base.html:81 .\ffg\templates\ffg\base.html:82
 msgid "Search"
 msgstr "Suche"
 
-#: .\ffg\templates\ffg\base.html:128
+#: .\ffg\templates\ffg\base.html:126
 msgid "Copyright © since 2001 by FFG-GbR - All Rights Reserved."
 msgstr "Copyright © seit 2001 von FFG-GbR - Alle Rechte vorbehalten."
 
@@ -252,7 +252,8 @@ msgstr "Büroräume"
 msgid "Office premises picture"
 msgstr "Büroräume Bild"
 
-#: .\home\templates\home\home.html:37
+#: .\home\templates\home\home.html:37 .\media\templates\media\media.html:104
+#: .\media\templates\media\media.html:106
 msgid "Office"
 msgstr "Büro"
 
@@ -260,7 +261,7 @@ msgstr "Büro"
 msgid "We offer multiple, variable offices surrounded by different trees and plants."
 msgstr "Wir bieten mehrere unterschiedliche Büros umgeben von verschiedenen Bäumen und Pflanzen an."
 
-#: .\home\templates\home\home.html:49
+#: .\home\templates\home\home.html:49 .\media\templates\media\media.html:20
 msgid "Meeting rooms"
 msgstr "Meetingräume"
 
@@ -276,7 +277,7 @@ msgstr "Große Räume für Meetings"
 msgid "We offer meeting rooms with lots of space for everything coming up in your mind."
 msgstr "Wir bieten Meetingräume mit viel Platz für alles was Ihnen in den Sinn kommt."
 
-#: .\home\templates\home\home.html:64
+#: .\home\templates\home\home.html:64 .\media\templates\media\media.html:23
 msgid "Parking areas"
 msgstr "Parkplätze"
 
@@ -292,56 +293,163 @@ msgstr "Parken"
 msgid "We offer a great parking area for cars and other vehicles."
 msgstr "Wir bieten einen großen Parkplatz für Autos und andere Fahrzeuge an."
 
-#: .\imprint\templates\imprint\imprint.html:13
+#: .\imprint\templates\imprint\imprint.html:12
 msgid "FFG - society of civil law"
 msgstr "FFG - Gesellschaft bürgerlichen Rechts"
 
-#: .\imprint\templates\imprint\imprint.html:15
+#: .\imprint\templates\imprint\imprint.html:14
 msgid "Street:"
 msgstr "Straße:"
 
-#: .\imprint\templates\imprint\imprint.html:16
+#: .\imprint\templates\imprint\imprint.html:15
 msgid "Von-Hünefeld-Str. 2, 50829 Cologne"
 msgstr "Von-Hünefeld-Str. 2, 50829 Köln"
 
-#: .\imprint\templates\imprint\imprint.html:19
+#: .\imprint\templates\imprint\imprint.html:18
 msgid "Tax id number:"
 msgstr "USt-IdNr.:"
 
-#: .\imprint\templates\imprint\imprint.html:24
+#: .\imprint\templates\imprint\imprint.html:23
 msgid "Executive Partner:"
 msgstr "Geschäftsführender Gesellschafter:"
 
-#: .\imprint\templates\imprint\imprint.html:28
+#: .\imprint\templates\imprint\imprint.html:27
 msgid "Shareholder:"
 msgstr "Gesellschafter: "
 
-#: .\imprint\templates\imprint\imprint.html:31
-#: .\imprint\templates\imprint\imprint.html:46
-#: .\imprint\templates\imprint\imprint.html:66
+#: .\imprint\templates\imprint\imprint.html:30
+#: .\imprint\templates\imprint\imprint.html:45
+#: .\imprint\templates\imprint\imprint.html:65
 msgid "E-mail:"
 msgstr "E-mail:"
 
-#: .\imprint\templates\imprint\imprint.html:35
-#: .\imprint\templates\imprint\imprint.html:50
-#: .\imprint\templates\imprint\imprint.html:70
+#: .\imprint\templates\imprint\imprint.html:34
+#: .\imprint\templates\imprint\imprint.html:49
+#: .\imprint\templates\imprint\imprint.html:69
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: .\imprint\templates\imprint\imprint.html:39
-#: .\imprint\templates\imprint\imprint.html:54
-#: .\imprint\templates\imprint\imprint.html:74
+#: .\imprint\templates\imprint\imprint.html:38
+#: .\imprint\templates\imprint\imprint.html:53
+#: .\imprint\templates\imprint\imprint.html:73
 msgid "Fax:"
 msgstr "Fax:"
 
-#: .\imprint\templates\imprint\imprint.html:44
+#: .\imprint\templates\imprint\imprint.html:43
 msgid "Contact possibilities"
 msgstr "Kontaktmöglichkeiten"
 
-#: .\imprint\templates\imprint\imprint.html:59
+#: .\imprint\templates\imprint\imprint.html:58
 msgid "Concept, design & technical implementation"
 msgstr "Konzeption, Design & technische Umsetzung"
 
-#: .\imprint\templates\imprint\imprint.html:63
+#: .\imprint\templates\imprint\imprint.html:62
 msgid "Photo credit"
 msgstr "Bildnachweis"
+
+#: .\media\templates\media\media.html:14
+msgid "Hall North"
+msgstr "Halle Nord"
+
+#: .\media\templates\media\media.html:17
+msgid "Offices"
+msgstr "Büros"
+
+#: .\media\templates\media\media.html:43
+msgid "Hall north top view"
+msgstr "Halle Nord Sicht von oben"
+
+#: .\media\templates\media\media.html:45
+msgid "Hall north top"
+msgstr "Halle Nord oben"
+
+#: .\media\templates\media\media.html:46
+msgid "The hall north from top view."
+msgstr "Die Halle Nord aus der Vogelperspektive."
+
+#: .\media\templates\media\media.html:50
+msgid "Hall north side view"
+msgstr "Halle Nord Seitenansicht"
+
+#: .\media\templates\media\media.html:52
+msgid "Hall north side"
+msgstr "Halle Nord Seite"
+
+#: .\media\templates\media\media.html:53
+msgid "The hall north from side view."
+msgstr "Die Halle Nord von der Seite."
+
+#: .\media\templates\media\media.html:57 .\media\templates\media\media.html:59
+msgid "Hall north ramp"
+msgstr "Halle Nord Rampe"
+
+#: .\media\templates\media\media.html:60
+msgid "The ramp of hall north."
+msgstr "Die Rampe von Halle Nord."
+
+#: .\media\templates\media\media.html:64 .\media\templates\media\media.html:66
+msgid "Hall north storeroom"
+msgstr "Halle Nord Lagerfläche"
+
+#: .\media\templates\media\media.html:67
+msgid "The storeroom inside of hall north."
+msgstr "Die Lagerfläche innerhalb der Halle Nord."
+
+#: .\media\templates\media\media.html:71 .\media\templates\media\media.html:73
+msgid "Hall north office"
+msgstr "Halle Nord Büro"
+
+#: .\media\templates\media\media.html:74
+msgid "The office inside of hall north."
+msgstr "Das Büro innerhalb von Halle Nord."
+
+#: .\media\templates\media\media.html:78 .\media\templates\media\media.html:80
+msgid "Hall north stairway"
+msgstr "Halle Nord Treppenhaus"
+
+#: .\media\templates\media\media.html:81
+msgid "The stairway inside of hall north."
+msgstr "Das Treppenhaus innerhalb von Halle Nord."
+
+#: .\media\templates\media\media.html:107
+msgid "An office building from outside."
+msgstr "Ein Bürogebäude von außen."
+
+#: .\media\templates\media\media.html:130
+#: .\media\templates\media\media.html:132
+msgid "Meeting room"
+msgstr "Meetingraum"
+
+#: .\media\templates\media\media.html:133
+msgid "One of our possible meeting rooms."
+msgstr "Einer von unseren möglichen Meetingräumen."
+
+#: .\media\templates\media\media.html:158
+msgid "Parking area top view"
+msgstr "Parkplatz Bild Sicht von oben"
+
+#: .\media\templates\media\media.html:160
+#: .\media\templates\media\media.html:167
+msgid "Parking area"
+msgstr "Parkplatz"
+
+#: .\media\templates\media\media.html:161
+msgid "The parking area from the top view."
+msgstr "Der Parkplatz aus der Vogelperspektive."
+
+#: .\media\templates\media\media.html:165
+msgid "Parking area from inside building view"
+msgstr "Parkplatz aus der Sicht innerhalb des Gebäudes"
+
+#: .\media\templates\media\media.html:168
+msgid "View on the parking area from inside the building."
+msgstr "Sicht auf den Parkplatz von innerhalb des Gebäudes aus."
+
+#: .\media\templates\media\media.html:172
+#: .\media\templates\media\media.html:174
+msgid "Gate"
+msgstr "Tor"
+
+#: .\media\templates\media\media.html:175
+msgid "The gate right beside the parking area."
+msgstr "Das Tor direkt neben dem Parkplatz."
