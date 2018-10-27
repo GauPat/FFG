@@ -1,0 +1,80 @@
+{% extends 'ffg/base.html' %}
+{% load i18n static %}
+
+{% block head_title %}
+  {% trans "Welcome to FFG-Immobiles" %}
+{% endblock %}
+
+{% block main %}
+  <div class="row">
+	  <div class="card">
+	    <div class="card-header text-center font-weight-bold">
+	      <h4>{% trans "Rental offers" %}</h4>
+	    </div>
+	    <div class="card-body">
+				<div class="card-deck mb-4">
+				  <div class="card">
+				    <div class="card-header text-center">
+				      <h5>{% trans "Storerooms" %}</h5>
+				    </div>
+				    <img class="card-img-top" src="{% static '/ffg/img/Rampen.JPG' %}" alt="{% trans "Storerooms picture" %}">
+				    <div class="card-body">
+				      <h6 class="card-title">{% trans "Ramp" %}</h6>
+				      <hr>
+				      <p class="card-text">{% trans "We offer multiple storerooms!" %}</p>
+				    </div>
+				    <div class="card-footer">
+				      <small class="font-weight-bold text-danger">{% trans "Storage rooms are currently all rented" %}</small>
+				    </div>
+				  </div>
+				  <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
+				  <div class="card">
+				    <div class="card-header text-center">
+				      <h5>{% trans "Office premises" %}</h5>
+				    </div>
+		        <img class="card-img-top" src="{% static '/ffg/img/VW_Gebaeude_Seite.JPG' %}" alt="{% trans "Office premises picture" %}">
+		        <div class="card-body">
+		          <h6 class="card-title">{% trans "Office" %}</h6>
+		          <hr>
+		          <p class="card-text">{% trans "We offer multiple, variable offices surrounded by different trees and plants." %}</p>
+		        </div>
+		        <div class="card-footer">
+		          <small class="font-weight-bold text-danger">{% trans "Offices are currently all rented" %}</small>
+		        </div>
+		      </div>
+		      <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
+		      <div class="w-100 d-none d-md-block d-lg-block d-xl-none mb-4 mb-xl-0"><!-- wrap every 2 on md and lg--></div>
+				  <div class="card">
+				    <div class="card-header text-center">
+				      <h5>{% trans "Meeting rooms" %}</h5>
+				    </div>
+				    <img class="card-img-top" src="{% static '/ffg/img/K_2.JPG' %}" alt="{% trans "Meeting room picture" %}">
+				    <div class="card-body">
+				      <h6 class="card-title">{% trans "Big rooms for meetings" %}</h6>
+				      <hr>
+				      <p class="card-text">{% trans "We offer meeting rooms with lots of space for everything coming up in your mind." %}</p>
+				    </div>
+				    <div class="card-footer">
+				      <small class="font-weight-bold text-danger">{% trans "Meeting rooms are currently all rented" %}</small>
+				    </div>
+				  </div>
+				  <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
+				  <div class="card">
+				    <div class="card-header text-center">
+				      <h5>{% trans "Parking areas" %}</h5>
+				    </div>
+				    <img class="card-img-top" src="{% static '/ffg/img/Parkplatz_Oben_5.JPG' %}" alt="{% trans "Parking area picture" %}">
+				    <div class="card-body">
+				      <h6 class="card-title">{% trans "Parking" %}</h6>
+				      <hr>
+				      <p class="card-text">{% trans "We offer a great parking area for cars and other vehicles. Parking areas are not rented individually." %}</p>
+				    </div>
+				    <div class="card-footer">
+				      <small class="font-weight-bold text-danger">{% trans "Parking areas are currently all rented" %}</small>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

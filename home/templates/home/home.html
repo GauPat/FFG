@@ -7,74 +7,24 @@
 
 {% block main %}
   <div class="row">
-	  <div class="card">
-	    <div class="card-header text-center font-weight-bold">
-	      <h4>{% trans "Rental offers" %}</h4>
-	    </div>
-	    <div class="card-body">
-				<div class="card-deck mb-4">
-				  <div class="card">
-				    <div class="card-header text-center">
-				      <h5>{% trans "Storerooms" %}</h5>
-				    </div>
-				    <img class="card-img-top" src="{% static '/ffg/img/Rampen.JPG' %}" alt="{% trans "Storerooms picture" %}">
-				    <div class="card-body">
-				      <h6 class="card-title">{% trans "Ramp" %}</h6>
-				      <hr>
-				      <p class="card-text">{% trans "We offer multiple storerooms!" %}</p>
-				    </div>
-				    <div class="card-footer">
-				      <small class="font-weight-bold text-danger">{% trans "Currently not available" %}</small>
-				    </div>
-				  </div>
-				  <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
-				  <div class="card">
-				    <div class="card-header text-center">
-				      <h5>{% trans "Office premises" %}</h5>
-				    </div>
-		        <img class="card-img-top" src="{% static '/ffg/img/VW_Gebaeude_Seite.JPG' %}" alt="{% trans "Office premises picture" %}">
-		        <div class="card-body">
-		          <h6 class="card-title">{% trans "Office" %}</h6>
-		          <hr>
-		          <p class="card-text">{% trans "We offer multiple, variable offices surrounded by different trees and plants." %}</p>
-		        </div>
-		        <div class="card-footer">
-		          <small class="font-weight-bold text-danger">{% trans "Currently not available" %}</small>
-		        </div>
-		      </div>
-		      <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
-		      <div class="w-100 d-none d-md-block d-lg-block d-xl-none mb-4 mb-xl-0"><!-- wrap every 2 on md and lg--></div>
-				  <div class="card">
-				    <div class="card-header text-center">
-				      <h5>{% trans "Meeting rooms" %}</h5>
-				    </div>
-				    <img class="card-img-top" src="{% static '/ffg/img/K_2.JPG' %}" alt="{% trans "Meeting room picture" %}">
-				    <div class="card-body">
-				      <h6 class="card-title">{% trans "Big rooms for meetings" %}</h6>
-				      <hr>
-				      <p class="card-text">{% trans "We offer meeting rooms with lots of space for everything coming up in your mind." %}</p>
-				    </div>
-				    <div class="card-footer">
-				      <small class="font-weight-bold text-danger">{% trans "Currently not available" %}</small>
-				    </div>
-				  </div>
-				  <div class="w-100 d-none d-sm-block d-md-none mb-4 mb-md-0"><!-- wrap every 1 on sm--></div>
-				  <div class="card">
-				    <div class="card-header text-center">
-				      <h5>{% trans "Parking areas" %}</h5>
-				    </div>
-				    <img class="card-img-top" src="{% static '/ffg/img/Parkplatz_Oben_5.JPG' %}" alt="{% trans "Parking area picture" %}">
-				    <div class="card-body">
-				      <h6 class="card-title">{% trans "Parking" %}</h6>
-				      <hr>
-				      <p class="card-text">{% trans "We offer a great parking area for cars and other vehicles." %}</p>
-				    </div>
-				    <div class="card-footer">
-				      <small class="font-weight-bold text-danger">{% trans "Currently not available" %}</small>
-				    </div>
-				  </div>
-				</div>
-			</div>
+	  <div class="col-xl-5 jumbotron mb-0 mr-5">
+		  <h1 class="display-5">{% trans "Offers" %}</h1>
+		  <p class="lead">{% trans "For small and also large companies, we have various immobiles and areas on offer" %}</p>
+		  <hr class="my-4">
+		  <p>{% trans "Both offices and meeting rooms, but also storage rooms are rented by us. We also offer parking areas." %}</p>
+		  <a class="btn btn-primary btn-lg" href="{% url 'offers' %}" role="button">{% trans "To the offers" %}</a>
+		</div>
+		<div class="col-xl-5 card ml-5 p-0">
+		  <h5 class="card-header">{% trans "Contact" %}</h5>
+		  <div class="card-body">
+		    <h5 class="card-title">{% trans "You can reach us via our contact formular." %}</h5>
+		    <p class="card-text">{% trans "Feel free to write an email to us." %}</p>
+		    <a href="{% url 'contact_form' %}" class="btn btn-primary">{% trans "To the contact formular" %}</a>
+		    <hr>
+		    <h5 class="card-title">{% trans "Our company is located in Cologne" %}</h5>
+        <p class="card-text">{% trans "Here you will find the way to us and the immobiles." %}</p>
+        <a href="{% url 'location_and_approach' %}" class="btn btn-primary">{% trans "To location & approach" %}</a>
+		  </div>
 		</div>
 	</div>
 {% endblock %}

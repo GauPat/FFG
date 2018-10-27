@@ -21,8 +21,8 @@
   
   <body>
     <!-- Header of all sites -->
-    <div class="jumbotron mb-0">
-      <h1>{% trans "FFG-Immobiles" %}</h1>
+    <div class="jumbotron mb-0 pl-5 pt-4 pb-4">
+      <h1>{% trans "FFG-GbR" %}</h1>
       <p>{% trans "Immobiles management since 2001" %}</p>
     </div>
   
@@ -40,15 +40,12 @@
 		      <li class="nav-item active">
 		        <a class="nav-link" href="{% url 'home' %}">{% trans "Home" %}</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">{% trans "News" %}</a>
-		      </li>
 		      <li class="nav-item dropdown">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownImmobiles" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% trans "Immobiles" %}</a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdownImmobiles">
 		          <a class="dropdown-item" href="#">{% trans "Overview" %}</a>
 		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">{% trans "Offers" %}</a>
+		          <a class="dropdown-item" href="{% url 'offers' %}">{% trans "Offers" %}</a>
 		          <a class="dropdown-item" href="#">{% trans "Places" %}</a>
 		          <div class="dropdown-divider"></div>
 		          <a class="dropdown-item" href="{% url 'media' %}">{% trans "Pictures and videos" %}</a>
